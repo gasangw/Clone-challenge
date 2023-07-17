@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
+
+.btn {
+    @apply py-5 px-10 font-sans text-lg font-semibold bg-[#fed100] border-b-8 border-[#4a4848] absolute top-[95%] lg:top-[66%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] md:w-fit
+}
 @tailwind utilities;
