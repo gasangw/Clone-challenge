@@ -9,6 +9,36 @@
 <body>
     <header></header>
     <main>
+        <!-- section of search bar -->
+        <section class="bg-[#ebeded] py-20">
+            <div class="container">
+                <div class="flex gap-8 py-8">
+                   <img src="Images/search.svg" alt="search-icon" />
+                   <p class="font-bold text-xl font-sans">Search</p>
+                </div>
+                <div class="flex space-x-6 flex-wrap font-sans pl-16">
+                   <div class="flex gap-3">
+                      <input type="radio" class="w-4"/>
+                      <label class="text-xl font-semibold">Degrees</label>
+                   </div>
+                   <div class="flex gap-3">
+                    <input type="radio" class="w-4"/>
+                    <label class="text-xl font-semibold">Short Courses</label>
+                 </div>
+                 <div class="flex gap-3">
+                    <input type="radio" class="w-4"/>
+                    <label class="text-xl font-semibold">Website</label>
+                 </div>
+                </div>
+
+                <div class="flex gap-3 border mt-6 ml-16">
+                    <input type="text" class="w-full outline-none border border-black px-4"/>
+                    <button class="hidden md:block py-5 px-10 font-sans font-normal bg-[#fed100] border-b-8 border-[#b7b1b1]">Search</button>
+                    <button class="block py-5 px-10 font-sans font-normal bg-[#fed100] border-b-8 border-[#b7b1b1] md:hidden">Go</button>
+                </div>
+            </div>
+        </section>
+
         <!-- Section of programs or couses -->
         <section class="bg-[#ebeded] py-20">
            <div class="container flex-col space-y-6">
